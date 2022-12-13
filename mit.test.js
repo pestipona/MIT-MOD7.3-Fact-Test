@@ -14,7 +14,7 @@ describe('MIT', () => {
     });
 
     test('Colors match', () => {
-        expect(mit.colors).toContain('Silver Gray');    
+        expect(mit.colors).toContain('Steel Gray');
     });
 
     test('Founded range', () => {
@@ -23,6 +23,6 @@ describe('MIT', () => {
     });
 
     test('Motto', () => {
-        expect(mit.motto).toMatch('Mens');
+        expect(mit.motto).toMatch('Mens et Manus (Mind and Hand)');
     });
 });
