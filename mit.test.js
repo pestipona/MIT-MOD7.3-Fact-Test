@@ -17,6 +17,10 @@ describe('MIT', () => {
         expect(mit.colors).toContain('Steel Gray');
     });
 
+    test('Mascot match', () => {
+        expect(mit.mascot).toBe('Beaver');
+    });
+
     test('Founded range', () => {
         expect(mit.founded).toBeLessThanOrEqual(1875);
         expect(mit.founded).toBeGreaterThanOrEqual(1850);    
