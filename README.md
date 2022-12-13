@@ -42,8 +42,8 @@ After Correcting ```mit.js```
 ```javascript
 var mit = {
     city: 'Cambridge',
-    colors: ['black', 'red', 'Steel Gray'],
-    mascot: "robot",
+    colors: ['Black', 'Red', 'Steel Gray'],
+    mascot: "Beaver",
     founded: 1861,
     motto: 'Mens et Manus (Mind and Hand)',
 };
