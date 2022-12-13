@@ -18,6 +18,9 @@
   "homepage": "https://github.com/kogsio/mitfacts#readme",
   "dependencies": {
     "course-utilities": "^1.0.0",
-    "jest": "^26.1.0"
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "jest": "^29.3.1"
   }
 }
